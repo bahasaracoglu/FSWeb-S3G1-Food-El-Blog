@@ -4,79 +4,148 @@
 <head>
     <meta charset="UTF-8">
     <!-- css dosyanızı ekleyiniz-->
+    <link href="./index.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Caveat|Lato" rel="stylesheet">
     <title>Food El Blog</title>
 </head>
 
 <body>
 
-    <!-- Kurum adı-->
-    Food El Blog
+    <div class="container">
+        <header>
+            <!-- Kurum adı-->
+            <h1 class="head">Food El Blog</h1>
 
-    <!-- Navigation -->
-    Ana Sayfa
-    Aperatifler
-    Vegan
-    Yemekler
-    Tatlılar
-    İçecekler
-    
+            <!-- Navigation -->
+            <nav>
+                <a class="active" href="#home">Ana Sayfa</a>
+                <a href="#aperatifler"> Aperatifler</a>
+                <a href="#vegan">Vegan</a>
+                <a href="#yemekler"> Yemekler</a>
+                <a href="#tatlilar">Tatlılar</a>
+                <a href="#icecekler">İçecekler</a>
+            </nav>
+
+        </header>
+    </div>
+
+
+
     <!-- Image /images/banner.png -->
-
+    <section class="banner-section">
+        <img src="images\banner.png" alt="banner" class="bannercenter">
+    </section>
     <!-- Pazarlama başlığı -->
-    Hakkımızda
 
-    Yaygınlaşmış küresel gıda anlayışına göre hamburger; belirli fast food zincirlerinin yapım süreçleri ve kullandıkları 
-    malzemeler nedeniyle “sağlıksızdır ve kilo aldırır” gibi negatif bir imaja sahip. Bu nedenle son 10 yılı domine eden 
-    sağlıklı yaşam trendleri dışında bırakılmıştır.  “Hamburgersiz de yaşanır “, iddialıyız. Fool El Blog, bugüne kadar 
-    yediğiniz tüm burgerleri size unutturacak kadar eşsiz yaratıldı.
+    <div class="hakkimizda">
+        <h2>Hakkımızda</h2>
 
+        <p> Yaygınlaşmış küresel gıda anlayışına göre hamburger; belirli fast food zincirlerinin yapım süreçleri ve
+            kullandıkları
+            malzemeler nedeniyle “sağlıksızdır ve kilo aldırır” gibi negatif bir imaja sahip. Bu nedenle son 10 yılı
+            domine
+            eden
+            sağlıklı yaşam trendleri dışında bırakılmıştır. “Hamburgersiz de yaşanır “, iddialıyız. Fool El Blog, bugüne
+            kadar
+            yediğiniz tüm burgerleri size unutturacak kadar eşsiz yaratıldı.</p>
+    </div>
     <!-- content -->
 
-    <!-- Image /images/yemek_1.jpg -->
-    Yemekler
+    <section class="content-row">
 
-    Bir fırında mantar soslu antrikot Türk mutfağının en özel ve en gösterişli yemeklerinden biri olarak kabul edilir. 
+        <div class="yemekler">
+            <!-- Image /images/yemek_1.jpg -->
+            <div>
+                <img src="images\yemek_1.jpg" alt="yemekler">
+            </div>
+            <article class="yemekler-yazi">
+                <h2> Yemekler</h2>
 
-    Bu yemek için dana antrikot özel baharatlarla fırına verilir ve ağızda dağılacak kadar yumuşayarak benzersiz bir 
-    deneyim için hazır hale gelir. Yanında sebze sote, mantarlı özel sos ile bu harika şölen tamamlanır. 
-    
-    <!-- Image /images/aperatif.jpeg -->
-    Aperatif
+                <p> Bir fırında mantar soslu antrikot Türk mutfağının en özel ve en gösterişli yemeklerinden biri olarak
+                    kabul
+                    edilir. </p>
 
-    Anadolu lezzetlerinden Avrupa’ya varana kadar bir yemek skalasını sizlerle paylaşmak için yola çıktık. İnternet 
-    gibi güçlü bir bağ ile mutfaklarınıza misafir olmak niyetindeyiz. E hadi o zaman, müsaitseniz kahvaltıya, belki 
-    akşam yemeğine, bilemedin 5 çayına sizdeyiz.
+                <p> Bu yemek için dana antrikot özel baharatlarla fırına verilir ve ağızda dağılacak kadar yumuşayarak
+                    benzersiz
+                    bir
+                    deneyim için hazır hale gelir. Yanında sebze sote, mantarlı özel sos ile bu harika şölen tamamlanır.
+                </p>
+            </article>
+        </div>
 
-    Yine de en çok sizleri bize bekleriz. Çünkü sadece bizim mutfağımızın ocağı yanarsa biz sizin o maharetli 
-    ellerinizden çıkan lezzetlerin tarifini nereden biliriz. İşte bu yüzden, hadi yine gelin; bizim mutfağın 
-    kapısı yok, hep bekleriz.
+        <div class="aperatif">
+            <!-- Image /images/aperatif.jpeg -->
+            <div class="aperatif__image">
+                <img src="images\aperatif.jpeg" alt="aperatif">
+            </div>
+            <article class="aperatif-yazi">
+                <h2>Aperatif</h2>
+
+                <p> Anadolu lezzetlerinden Avrupa’ya varana kadar bir yemek skalasını sizlerle paylaşmak için yola
+                    çıktık.
+                    İnternet
+                    gibi güçlü bir bağ ile mutfaklarınıza misafir olmak niyetindeyiz. E hadi o zaman, müsaitseniz
+                    kahvaltıya,
+                    belki
+                    akşam yemeğine, bilemedin 5 çayına sizdeyiz.</p>
+
+                <p> Yine de en çok sizleri bize bekleriz. Çünkü sadece bizim mutfağımızın ocağı yanarsa biz sizin o
+                    maharetli
+                    ellerinizden çıkan lezzetlerin tarifini nereden biliriz. İşte bu yüzden, hadi yine gelin; bizim
+                    mutfağın
+                    kapısı yok, hep bekleriz.</p>
+            </article>
+        </div>
+        <div class="tatlilar">
+            <div>
+                <!-- Image /images/tatli_1.jpg -->
+                <img src="images\tatli_1.jpg" alt="tatlilar">
+            </div>
+
+            <div class="tatlilar-metin">
+            <h2> Tatlılar</h2>
+
+            <p> Taptaze tatlılarımız, fırınımız ustalarının özenle hazırladığı pastacı kreması ile buluştu. Her
+                sofraya
+                yakışan
+                alametifarikalarımız tatlılarımız ile kendinizi ödüllendirin.</p>
+            </div>
+        </div>
+    </section>
+</body>
+<section class="contact-section">
+
+    <h2> İletişim</h2>
+
+    <h6>
+        <address class="adres">
+            <p>yemek@foodelblog.com</p>
+            <p>216-550-5905</p>
+            <p>Bağdat Cd. No:302/1</p>
+            <p>Kadıköy, İstanbul, 34728</p>
+        </address>
+    </h6>
+</section>
+<!-- footer -->
+<footer>
+    <div class="footer-content">
+        <h3> Food El Blog</h3>
+        <nav>
 
 
-     <!-- Image /images/tatli_1.jpg -->
-    Tatlılar
+            <a class="active" href="#home">Ana Sayfa</a>
+            <a href="#aperatifler"> Aperatifler</a>
+            <a href="#vegan">Vegan</a>
+            <a href="#yemekler"> Yemekler</a>
+            <a href="#tatlilar">Tatlılar</a>
+            <a href="#icecekler">İçecekler</a>
 
-    Taptaze tatlılarımız, fırınımız ustalarının özenle hazırladığı pastacı kreması ile buluştu. Her sofraya yakışan 
-    alametifarikalarımız tatlılarımız ile kendinizi ödüllendirin.
-
-    İletişim
-
-    yemek@foodelblog.com
-    216-550-5905
-    Bağdat Cd. No:302/1
-    Kadıköy, İstanbul, 34728
-
-    <!-- footer -->
-    Food El Blog
-
-    Ana Sayfa
-    Aperatifler
-    Vegan
-    Yemekler
-    Tatlılar
-    İçecekler
-
-    @Copyright Food El Blog 2022
+        </nav>
+        <div class="copyright">
+            <p> @Copyright Food El Blog 2023</p>
+        </div>
+    </div>
+</footer>
 </body>
 
 </html>
